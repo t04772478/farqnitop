@@ -1,0 +1,18 @@
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-box img {
+    width: 45%;
+    border: 2px solid #22c55e;
+    border-radius: 10px;
+}
