@@ -1,18 +1,31 @@
 body {
-    background: #0f172a;
-    color: white;
-    font-family: Arial;
-    text-align: center;
+  background:#0f172a;
+  color:#fff;
+  text-align:center;
+  font-family:Arial;
 }
 
-.image-box {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+.game {
+  display:flex;
+  justify-content:center;
+  gap:10px;
 }
 
-.image-box img {
-    width: 45%;
-    border: 2px solid #22c55e;
-    border-radius: 10px;
+.img-wrap {
+  position:relative;
+}
+
+.img-wrap img {
+  width:200px;
+  border-radius:10px;
+  border:2px solid #22c55e;
+}
+
+.mark {
+  position:absolute;
+  width:30px;
+  height:30px;
+  border:2px solid red;
+  border-radius:50%;
+  pointer-events:none;
 }
