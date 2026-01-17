@@ -1,31 +1,33 @@
 body {
-  background:#0f172a;
-  color:#fff;
-  text-align:center;
-  font-family:Arial;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  font-family: Arial;
 }
 
 .game {
-  display:flex;
-  justify-content:center;
-  gap:10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .img-wrap {
-  position:relative;
+  position: relative;
+  display: inline-block;
 }
 
 .img-wrap img {
-  width:200px;
-  border-radius:10px;
-  border:2px solid #22c55e;
+  width: 220px;
+  border-radius: 10px;
+  border: 2px solid #22c55e;
+  display: block;
 }
 
 .mark {
-  position:absolute;
-  width:30px;
-  height:30px;
-  border:2px solid red;
-  border-radius:50%;
-  pointer-events:none;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 3px solid red;
+  border-radius: 50%;
+  pointer-events: none;
 }
